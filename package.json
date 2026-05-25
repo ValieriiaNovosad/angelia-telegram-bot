@@ -1,0 +1,27 @@
+{
+  "name": "angelia-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот медичного центру «Ангелія»",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["telegram", "bot", "grammy", "medical", "angelia"],
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/conversations": "^2.1.1",
+    "better-sqlite3": "^12.10.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^171.4.0",
+    "grammy": "^1.43.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}

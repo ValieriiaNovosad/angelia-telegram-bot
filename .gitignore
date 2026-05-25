@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+data/appointments.db
+google-service-account.json
+*.log
+.DS_Store
